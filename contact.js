@@ -1,12 +1,13 @@
  contactos = ["Alen  Robledo ", "Yesid Robledo", "Mitchel Penagos", "Eugenia Mosquera "];
 
+ // Funcion agregar Contactos
  function addcontacto(nombre) {
      contactos.push(nombre);
      console.log(contactos);
 
 
  }
-
+ //Funcion eliminar contactos
  function deletecontacto(nombre) {
 
 
@@ -17,7 +18,7 @@
  }
 
 
-
+ //Funcion ver contactos
  function viewcontacto() {
 
      for (var i = 0; i < contactos.length; i++) {
